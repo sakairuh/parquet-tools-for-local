@@ -110,6 +110,7 @@ favorite_numbers:
 
 ## schema
 
+```
 $ java -jar ./parquet-tools-1.9.0.jar schema users.parquet
 message example.avro.User {
   required binary name (UTF8);
