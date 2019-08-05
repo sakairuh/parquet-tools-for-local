@@ -73,7 +73,7 @@ value 5: R:0 D:0 V:<null>
 
 ```
 $ java -jar ./parquet-tools-1.9.0.jar meta users.parquet
-file:             file:/home/ryohei/sources/parquet-mr/parquet-tools/target/users.parquet
+file:             file:/home/user/sources/parquet-mr/parquet-tools/target/users.parquet
 creator:          parquet-mr version 1.4.3
 extra:            avro.schema = {"type":"record","name":"User","namespace":"example.avro","fields":[{"name":"name","type":"string"},{"name":"favorite_color","type":["string","null"]},{"name":"favorite_numbers","type":{"type":"array","items":"int"}}]}
 
