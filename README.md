@@ -106,12 +106,16 @@ favorite_numbers:
 name = Ben
 favorite_color = red
 favorite_numbers:
+```
 
-[ryohei@nuc target]$ java -jar ./parquet-tools-1.9.0.jar schema users.parquet
+## schema
+
+$ java -jar ./parquet-tools-1.9.0.jar schema users.parquet
 message example.avro.User {
   required binary name (UTF8);
   optional binary favorite_color (UTF8);
   required group favorite_numbers (LIST) {
     repeated int32 array;
   }
-```}
+}
+```
